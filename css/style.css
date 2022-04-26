@@ -168,6 +168,8 @@ body {
 #flag-country {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 50px;
+  align-items: stretch;
 }
 
 .country-info {
@@ -178,6 +180,10 @@ body {
 }
 
 .flag-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 24px;
 }

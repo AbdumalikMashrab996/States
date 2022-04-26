@@ -1,259 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>States</title>
-    <link rel="stylesheet" href="css/normolize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="large-container">
-      <div class="top-section">
-        <h2 class="top-title">Where in the world?</h2>
-        <a href="#" class="dark-link">
-          <img src="img/moon-black.svg" width="15" height="15"/>
-          <span>Dark Mode</span></a
-        >
-      </div>
-      <div class="container">
-        <div class="global-search">
-          <form class="form">
-            <img
-              class="search-icon"
-              src="img/search.svg"
-              width="20"
-              height="20"
-            />
-            <input
-              class="form-input"
-              type="text"
-              placeholder="Search for a country…"
-            />
-          </form>
-          <select class="select-country">
-            <option value="undefined" selected disabled>
-              Filter by Region
-            </option>
-            <option value="africa">Africa</option>
-            <option value="america">America</option>
-            <option value="asia">Asia</option>
-            <option value="europe">Europe</option>
-            <option value="oceania">Oceania</option>
-          </select>
-        </div>
-        <!-- ===== Start states section ===== -->
-        <section id="flag-country">
-          <!-- ===== Germany ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/GERMANY.png"
-              srcset="img/GERMANY.png, img/GERMANY@2x.png"
-              alt="GermanyGermany"
-            />
-            <h3 class="country-name">Germany</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>81,770,900</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Europe</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Berlin</span>
-              </li>
-            </ul>
-          </section>
 
-          <!-- ===== United States of America ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/USA.png"
-              srcset="img/USA.png, img/USA@2x.png"
-              alt="United States of America"
-            />
-            <h3 class="country-name">United States of America</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>323,947,000</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Americas</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Washington, D.C.</span>
-              </li>
-            </ul>
-          </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>States</title>
+  <link rel="stylesheet" href="css/normolize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-          <!-- ===== Brazil ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/BRAZIL.png"
-              srcset="img/BRAZIL.png, img/BRAZIL@2x.png"
-              alt="Brazil"
-            />
-            <h3 class="country-name">Brazil</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>206,135,893</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span> Americas</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Brasília</span>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ===== Iceland ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/ICELAND.png"
-              srcset="img/ICELAND.png, img/ICELAND@2x.png"
-              alt="Iceland"
-            />
-            <h3 class="country-name">Iceland</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>334,300</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Europe</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Reykjavík</span>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ===== Afghanistan ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/AFGHANISTAN.png"
-              srcset="img/AFGHANISTAN.png, img/AFGHANISTAN@2x.png"
-              alt="Afghanistan"
-            />
-            <h3 class="country-name">Afghanistan</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>27,657,145</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Asia</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Kabul</span>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ===== Åland Islands ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/NORWAY.png"
-              srcset="img/NORWAY.png, img/NORWAY@2x.png"
-              alt="Åland Islands"
-            />
-            <h3 class="country-name">Åland Islands</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>28,875</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Europe</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Mariehamn</span>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ===== Albania ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/ALBANIA.png"
-              srcset="img/ALBANIA.png, img/ALBANIA@2x.png"
-              alt="Albania"
-            />
-            <h3 class="country-name">Albania</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>2,886,026</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Europe</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Tirana</span>
-              </li>
-            </ul>
-          </section>
-
-          <!-- ===== Algeria ===== -->
-          <section class="country-info">
-            <img
-              class="flag-img"
-              src="img/PAKISTAN.png"
-              srcset="img/PAKISTAN.png, img/PAKISTAN@2x.png"
-              alt="Algeria"
-            />
-            <h3 class="country-name">Algeria</h3>
-            <ul class="list">
-              <li class="item">
-                <span><b>Population</b></span>
-                <span>40,400,000</span>
-              </li>
-              <li class="item">
-                <span><b>Region</b></span>
-                <span>Africa</span>
-              </li>
-              <li class="item">
-                <span><b>Capital</b></span>
-                <span>Algiers</span>
-              </li>
-            </ul>
-          </section>
-        </section>
-        <!-- ===== End states section ===== -->
-      </div>
+<body>
+  <div class="large-container">
+    <div class="top-section">
+      <h2 class="top-title">Where in the world?</h2>
+      <a href="#" class="dark-link">
+        <img src="img/moon-black.svg" width="15" height="15" />
+        <span>Dark Mode</span></a>
     </div>
-  </body>
+    <div class="container">
+      <div class="global-search">
+        <form class="form">
+          <img class="search-icon" src="img/search.svg" width="20" height="20" />
+          <input class="form-input" type="text" placeholder="Search for a country…" />
+        </form>
+        <select class="select-country">
+          <option value="undefined" selected disabled>
+            Filter by Region
+          </option>
+          <option value="africa">Africa</option>
+          <option value="america">America</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </div>
+      <!-- ===== Start states section ===== -->
+      <section id="flag-country">
+        <!-- ===== Germany ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/GERMANY.png" srcset="img/GERMANY.png, img/GERMANY@2x.png"
+            alt="GermanyGermany" />
+          <h3 class="country-name">Germany</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>81,770,900</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Europe</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Berlin</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== United States of America ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/USA.png" srcset="img/USA.png, img/USA@2x.png" alt="United States of America" />
+          <h3 class="country-name">United States of America</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>323,947,000</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Americas</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Washington, D.C.</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Brazil ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/BRAZIL.png" srcset="img/BRAZIL.png, img/BRAZIL@2x.png" alt="Brazil" />
+          <h3 class="country-name">Brazil</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>206,135,893</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span> Americas</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Brasília</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Iceland ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/ICELAND.png" srcset="img/ICELAND.png, img/ICELAND@2x.png" alt="Iceland" />
+          <h3 class="country-name">Iceland</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>334,300</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Europe</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Reykjavík</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Afghanistan ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/AFGHANISTAN.png" srcset="img/AFGHANISTAN.png, img/AFGHANISTAN@2x.png"
+            alt="Afghanistan" />
+          <h3 class="country-name">Afghanistan</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>27,657,145</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Asia</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Kabul</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Åland Islands ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/NORWAY.png" srcset="img/NORWAY.png, img/NORWAY@2x.png" alt="Åland Islands" />
+          <h3 class="country-name">Åland Islands</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>28,875</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Europe</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Mariehamn</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Albania ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/ALBANIA.png" srcset="img/ALBANIA.png, img/ALBANIA@2x.png" alt="Albania" />
+          <h3 class="country-name">Albania</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>2,886,026</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Europe</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Tirana</span>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- ===== Algeria ===== -->
+        <!-- <section class="country-info">
+          <img class="flag-img" src="img/PAKISTAN.png" srcset="img/PAKISTAN.png, img/PAKISTAN@2x.png" alt="Algeria" />
+          <h3 class="country-name">Algeria</h3>
+          <ul class="list">
+            <li class="item">
+              <span><b>Population</b></span>
+              <span>40,400,000</span>
+            </li>
+            <li class="item">
+              <span><b>Region</b></span>
+              <span>Africa</span>
+            </li>
+            <li class="item">
+              <span><b>Capital</b></span>
+              <span>Algiers</span>
+            </li>
+          </ul>
+        </section>
+      </section> -->
+      <!-- ===== End states section ===== -->
+    </div>
+  </div>
+  <!-- Java Script ===== -->
+  <script src="script.js"></script>
+</body>
+
 </html>
